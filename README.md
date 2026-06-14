@@ -103,7 +103,7 @@ The KNN model with the higher accuracy score(63.33%) as compared to Decision Tre
 ```text
 Netflix-User-Analytics/
 │
-├── netflix_dataset.csv
+├── netflix_UserData.csv
 ├── Netflix_User_Analytics.ipynb
 ├── README.md
 └── description.md   
