@@ -74,20 +74,20 @@ Based on Decision Tree feature importance analysis, the most influential factors
 * FavoriteGenre
 
 
-### Why is subscription renewal a classification problem?
+### 2. Why is subscription renewal a classification problem?
 
 Subscription renewal has two possible outcomes: Yes or No. As there are discrete categories, it is a classification task.A new user can only
 attain these 2 values.
 
-### Why is monthly spending a regression problem?
+### 3. Why is monthly spending a regression problem?
 
 Monthly spending is a continuous numerical value not a category, making it suitable for regression analysis.
 
-### Which algorithm performed better?
+### 4. Which algorithm performed better?
 
 The KNN model with the higher accuracy score(63.33%) as compared to Decision Tree Model's accuracy score(56.00%) is the better performer for renewal prediction.
 
-### How can Netflix use these predictions?
+### 5. How can Netflix use these predictions?
 
 * Identify users likely to cancel subscriptions 
 * Improve customer retention strategies
@@ -106,6 +106,7 @@ Netflix-User-Analytics/
 ├── netflix_dataset.csv
 ├── Netflix_User_Analytics.ipynb
 ├── README.md
+└── description.md   
 
 ```
 
